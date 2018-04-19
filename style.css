@@ -1,0 +1,355 @@
+    /* Take out the mini-space on the top site */
+    *{
+        margin:0px;
+        padding:0px;
+    }
+   
+    .container {
+
+        width:960; /*changes*/
+        background-image:url(circles-light.png);
+       
+    }
+    .about,.messageForm {
+
+        width:960px;
+        height: 455px;
+        background-color:#FFFFFF;
+        border: thin;
+        border-color: #dddddd;
+        margin-left:100px;
+        margin-right:150px;
+        margin-top:50px;
+        margin-bottom: 100px;
+        padding:20px;
+    }
+
+    main{
+        width:500px;
+        height: 550px;
+        background-color:#FFFFFF;
+        border: thin;
+        border-color: #dddddd;
+        margin-left:300px;
+        margin-top:50px;
+        margin-bottom: 25px;
+        padding:20px;
+    }
+    .h1P {
+        position:relative; 
+        float:left; 
+        font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+        color:white;
+        width:25px;
+        height:70px;
+        margin-left:175px;
+    }
+  
+    h1 {
+        background-color: #4AAAA5;
+        position:relative;
+        float:left;
+        font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+        color:white;
+        width:300;
+        height:70px;
+        margin-left:130px;
+        margin-top:0px;
+
+    }
+
+    h2 {
+        border-bottom: 2px solid #dddddd;
+        padding-top:20px;
+        padding-bottom:20px;
+        color:#4AAAA5;
+        font-size:20px;
+        font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    }
+
+    #header{
+        height:70px;
+        border-bottom: 2px solid #DDD;
+        background-color: white;
+    }
+
+    #headerP{
+        height:70px;
+        border-bottom: 2px solid #DDD;
+        background-color: white;
+    }
+
+    #menuBar{
+        float:right;
+        position:relative;
+        margin-right:125px;
+        margin-top:40px;
+        font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+        color:#cccccc;
+       
+        
+    }
+    #menuBarP{
+        float:right;
+        margin-right:360px;
+        margin-top:40px;
+        font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+        color:#cccccc;       
+    }
+    .Contact{
+        float: left; 
+        padding-right:10px;
+    }
+
+    .Portfolio{
+        float: left;
+        
+    }
+
+    .About,.form{
+            float:left;
+            margin-right:10px;          
+        }
+
+    img{
+        height:138px;
+        width:183px;
+        position:relative;
+        float:left;
+        padding-right:10px;
+        padding-top:20px;
+    }
+    img:hover{
+        background-color:#EEEEEE;
+    }
+
+    a:link{
+        text-decoration: none;
+    }
+    a:hover{
+        background-color:#EEEEEE;
+    }
+
+    a {
+        color:#cccccc;     
+    }
+
+    hr{
+        background-color: #cccccc;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+
+    .aboutMeDesc, .aboutMeDesc2{
+        position:relative;
+        margin-left:50px;
+        color:#cccccc;
+        font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+        padding-top:20px;
+    }
+    
+    footer{
+        border-top: 5px solid #4aaaa5;
+        background-color: #666666;
+        height:50px;
+        padding-top:50px;      
+    }
+
+    span{
+        text-align: center;
+        font-size:15px;
+        font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+        color:#cccccc;
+        margin-bottom:20px;
+        margin-left:600px;
+        padding-top:50px; /*created space between border and copyright*/
+    }
+    
+    
+    .formContact {
+        font-size:30px;
+        color:#4aaaa5;
+        border-bottom: 2px solid #dddddd;
+        font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    }
+    input[type=text], textarea{
+        padding:10px;
+        width:100%;
+        border: 1px solid #cccccc;
+        box-sizing: border-box;
+        margin-top:6px;
+        margin-bottom:6px;      
+    }
+    label {
+        font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+        color:#cccccc;
+    }
+    
+    textarea{
+        height:150px;
+    }
+
+    input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    }
+
+    #secondImage {
+        position:relative;
+        float:left;
+        z-index:0;
+        padding-right:10px;
+        text-align: center;
+    }
+    #firstImage,#thirdImage,#fourthImage,#fifthImage { 
+        float:left;    
+        padding-right:10px;      
+    }
+    
+    .label1,.label2,.label3,.label4,.label5{
+        background-color: #4aaaa5;
+        font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+        font-size:15px;
+        color:white;
+        position:absolute;
+        height:30px;
+        margin-top:120px;
+        text-align: center;
+        width:183px;  
+        padding-top:5px;
+    } 
+    @media screen and (max-width:980px){
+        .container{
+            width:100%;
+        }
+        .about{
+            width:50%;
+            height:30%;
+        }
+        .messageForm{
+            width:50%;
+            height:30%;
+        }
+        h1{
+            margin-left:100px;
+        }
+        footer {
+            width:100%;
+        }
+        img{
+            width:20%;
+        }
+        #menuBarP{
+            width:50%;
+            
+        }
+        
+    }
+    @media screen and (max-width:768px){
+        .container{
+            width:100%;
+        }
+        .about{
+            width:75%;
+            height:30%;
+        }
+        img{
+            width:50%;
+        }
+        #header{
+            width:100%;   
+        }
+        #headerP{
+            width:100%;
+        }
+        h1{
+            margin-left:100px;
+        }
+        .h1P{
+            width:50;
+        }
+        #menuBarP{
+            float:right;
+            position:fixed;
+            width:50%;
+        }
+        
+        #menuBar{
+            float:right;
+        }
+        footer{
+            width:100%; 
+        }
+        main{
+            width:100%;
+        }
+        #firstImage,#secondImage,#thirdImage,#fourthImage,#fifthImage{
+            width:100%;
+            height:20%;
+        }
+        .label1,.label2,.label3,.label4,.label5{
+            width:100%;
+
+        }
+    }
+    
+    @media screen and (max-width:640px){
+        .container{
+            width:100%;
+        }
+        h1{
+            width:100%;
+            margin-left:-50px;
+            text-align:center;
+        }
+        .about{
+            width:80%;
+            height:70%;
+            margin-right:20px;
+            margin-left:20px;
+        }
+        #menuBar{
+             /* background-color:red; */
+            font-size: 20px;
+            height:100px;
+            /* width:100%     */
+           
+        }
+        .About,.Contact,.Portfolio{
+            margin-top:-50px; 
+            padding-right:30px;
+            padding-top:30px;
+            /* margin-left:400px; */
+           /* float:right;
+           position:relative; */
+            width:100%;
+            /* background-color: white; */
+           
+        }
+        .About{
+            position:relative;
+            float:left;
+            margin-left:-400px;
+        }
+        .Contact{
+            position:absolute;
+            float:left;
+            margin-left:-300px;
+        }
+        .Portfolio{
+            position:absolute;
+            float:left;
+            margin-left:-150px;
+        }
+
+        footer{
+            width:100%; 
+        }
+        span{
+            text-align:center;
+        }
+    }
+    
+    
